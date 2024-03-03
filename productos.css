@@ -1,0 +1,182 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#icono {
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+
+nav menu {
+    padding-block: 10px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 200px;
+}
+
+nav button {
+    padding-block: 5px;
+    margin-inline: 10px;
+    border: none;  
+    cursor: pointer; 
+    border-radius: 5px;
+    background-color: #023047; 
+    color:#ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: 1s background;
+}
+
+nav button:hover {
+    background-color: #036ea3;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.productos li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px dashed #023047;
+    border-radius: 20px;
+}    
+
+.productos li:hover {
+    border-color: #036ea3;
+}
+
+.productos li:active {
+    border-color: #088c19;
+}
+
+.productos li:hover h2 {
+    font-size: 25px;
+}
+
+.prod-descripcion {
+    font-size: 18px;
+}
+
+.prod-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #023047;
+    padding: 30px;
+}
+
+footer img {
+    width: 9%;
+    display: block;
+    margin: auto;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+/* Contacto */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 15px;
+    border-color: #036ea3;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+select {
+    border-radius: 10px;
+    color: #036ea3;
+}
+
+fieldset {
+    margin: 20px 0;
+    border-radius: 10px;
+    border-color: #036ea3;
+    width: 52%;
+}
+
+.enviar {
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #023047;
+    padding: 8px 8px;
+    transition: 1s all;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.enviar:hover {
+    background-color: #088c19;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #036ea3;
+    color: white;
+}
+
+td, th {
+    border: 2px dashed #023047;
+    padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .icono {
+        text-align: center;
+    }
+
+    .contenedor, .principal, .video {
+        width: auto;
+    }
+}
